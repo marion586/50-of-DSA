@@ -1,0 +1,14 @@
+Question:
+
+An array is monotonic if it is either monotone increasing or monotone decreasing. an array is monotone increasing if all its elements from left to right are non-decreasing.an  array is monotone decreasing if all its elements from left to right  are non-increasing. Given an integer array return true if the given array is monotoci or false otherwise
+
+Clarifying the question 
+-Is an empty array monotonic? yes
+-Is an array with only 1 integer monotonic ? yes
+
+Test cases : 
+
+[1 , 2 , 3]  true , (ND, MI)
+[3,2,1] True , (NI ,  MD)
+[1,2,2]
+
